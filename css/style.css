@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px/1.7 arial, helvetica, sans-serif;
+  color: #333;
+}
+a {
+  color: #333;
+}
+a:hover {
+  color: #5ba4cf;
+  text-decoration: none;
+}
+html, body, #wrap {
+  height: 100%;
+}
+#wrap {
+  position: relative;
+}
+
+
+#svg-bg {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 42px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 14px;
+  padding: 2% 0;
+  position: relative;  
+  font-family: "Yuanti SC";
+  
+}
+
+
+
+
+
+
+
+.content{
+  background-image: url(../img/takahshi.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  height: 110px;                  
+  padding:  20px;                              
+  background-color:rgb(152,194,174);   
+}
+
+.circle{
+  position: absolute;
+  left:30px; 
+  top: 40px; 
+
+}
+
+.crown{
+  position: absolute;
+  left: 750px;
+  top: 30px; 
+}
+
+.wave{
+  position:relative;
+  top: -2px;
+}
+
+.takahashi{
+  font-family: 'Century Gothic';
+  color: #fff;
+  position: absolute;
+  right:240px; 
+  top: 120px; 
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 10px;
+
+}
+
+.font_test{
+  color:rgb(248,240,148) ;
+}
+
+.tanoshi{
+  font-family:  'Gulim';
+  color: #fff;
+  position: absolute;
+  left:230px; 
+  top: 175px; 
+  font-size: 12px;
+
+}
+
+h1::before{
+  content: '';/*何も入れない*/
+  display: inline-block;
+  width: 50px;/*画像の幅*/
+  height: 50px;/*画像の高さ*/
+  background-image: url(../img/takahashi.neko.svg);
+  background-size: contain;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+
+h1::after{
+  content: '';/*何も入れない*/
+  display: inline-block;
+  width: 50px;/*画像の幅*/
+  height: 50px;/*画像の高さ*/
+  background-image: url(../img/takahashi.crown.svg);
+  background-size: contain;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -1px;
+}
+
+
+
+
+
+
+
+/* 2カラムサイトにする */
+.wrapper {
+  width: 90%;
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.main, .side {
+  padding: 20px;
+}
+
+.main {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.side {
+  background: #e0d8cb;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.side p, ul {
+  padding: 30px;
+}
+
+/* 2カラムコンテンツにする */
+
+.archive {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.archive div {
+  margin-bottom: 3rem;
+  width: 45%;
+  background-color: #e0d8cb;
+  border-radius: 5px;
+  height: 30vw;
+}
+
+.archive img {
+  display: block;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 50%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.archive p {
+  text-align:  center;
+}
+
+.side p{
+  display: table-cell;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+
