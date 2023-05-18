@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 92 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1599.65,-385.229)">
+        <g transform="matrix(1.33793,0,0,0.941717,-488.496,-8.9483)">
+            <g transform="matrix(0.747423,0,0,1.06189,1542.95,381.403)">
+                <circle cx="58.578" cy="160.06" r="34.79" style="fill:white;"/>
+            </g>
+        </g>
+        <g transform="matrix(1.33793,0,0,0.941717,-488.496,-8.9483)">
+            <g transform="matrix(0.747423,0,0,1.06189,1531.1,363.476)">
+                <circle cx="112.283" cy="118.635" r="17.694" style="fill:white;"/>
+            </g>
+        </g>
+        <g transform="matrix(1.33793,0,0,0.941717,-488.496,-8.9483)">
+            <g transform="matrix(0.747423,0,0,1.06189,1528.57,366.669)">
+                <circle cx="126.278" cy="76.678" r="8.414" style="fill:white;"/>
+            </g>
+        </g>
+        <g transform="matrix(1.33793,0,0,0.941717,-488.496,-8.9483)">
+            <g transform="matrix(0.747423,0,0,1.06189,1511.38,372.305)">
+                <circle cx="145.835" cy="45.491" r="1.92" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>
